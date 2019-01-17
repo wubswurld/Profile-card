@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<body>
+        <link href="css/hover.css" rel="stylesheet" media="all" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+    <div class="card">
+        <img id="image" src="image.png" style="width:100%">
+        <h3>Jack Watters</h4>
+        <p class="title hvr-float">Software Engineer</p>
+        <p>42 School Silicon Valley</p>
+        <a id="btb" target="_blank" onclick="myFunction2()" href="https://www.linkedin.com/in/jack-watters/"><i class="fa fa-linkedin"></i></a> 
+        <a id="bmb" target="_blank" href="#" onclick="myFunction3()"><i class="fa fa-github"></i></a>
+        <a id="bob" onclick="myFunction()" href="mailto:squawfreeskier@gmail.com">C o n t a c t</a>
+        <script>
+                function myFunction() {
+                    document.getElementById("bob").style.color = "blue";
+                }
+                function myFunction3() {
+                    document.getElementById("bmb").style.color = "blue";
+                }
+                function myFunction2() {
+                    document.getElementById("btb").style.color = "blue";
+                }
+        </script>
+    </div>
+</body>
+</html>
